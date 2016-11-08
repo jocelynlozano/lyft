@@ -1,0 +1,52 @@
+.fondoPantalla{
+	background-image: url("../img/fondo.jpg");
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+.logo1{
+	background-size: cover;
+    margin-top: 10%;
+    width: 30%;
+}
+
+/*Fin de Loading*/
+
+
+.cajaGrande{
+	background-image: url("../img/giftjocy.gif");
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+.logo{
+	background-size: cover;
+    margin-top: 10%;
+    width: 30%;
+}
+
+.boton1{
+	background-color: transparent;
+	border-color: #fff;
+	color: #fff;
+	left: 5%;
+}
+
+.boton2{
+	background-color:#fff;
+	color: #EB068C;
+	right: 5%;
+}
+
+.btn{
+    bottom: 10%;
+    font-size: 20px;
+	position: absolute;
+	width: 40%;
+}
+
+/*Fin de Index*/
+
+
