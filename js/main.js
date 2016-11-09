@@ -1,7 +1,3 @@
-window.setTimeout("load", redireccionar);
-	
-	setTimeout ("redireccionar()", 1000);
-
-	function redireccionar(){
-  		window.location = "index.html";
-		};
+$(document).ready(function() {
+   $(".load").fadeOut(3000);
+});

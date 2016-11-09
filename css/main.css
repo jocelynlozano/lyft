@@ -11,9 +11,6 @@
     width: 30%;
 }
 
-/*Fin de Loading*/
-
-
 .cajaGrande{
 	background-image: url("../img/giftjocy.gif");
 	background-size: cover;
@@ -35,8 +32,15 @@
 }
 
 .boton2{
-	background-color:#fff;
-	color: #EB068C;
+	background: rgba(203,96,179,1);
+background: -moz-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 41%, rgba(219,54,164,1) 59%, rgba(219,54,164,1) 99%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(203,96,179,1)), color-stop(41%, rgba(193,70,161,1)), color-stop(59%, rgba(219,54,164,1)), color-stop(99%, rgba(219,54,164,1)));
+background: -webkit-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 41%, rgba(219,54,164,1) 59%, rgba(219,54,164,1) 99%);
+background: -o-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 41%, rgba(219,54,164,1) 59%, rgba(219,54,164,1) 99%);
+background: -ms-linear-gradient(left, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 41%, rgba(219,54,164,1) 59%, rgba(219,54,164,1) 99%);
+background: linear-gradient(to right, rgba(203,96,179,1) 0%, rgba(193,70,161,1) 41%, rgba(219,54,164,1) 59%, rgba(219,54,164,1) 99%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', endColorstr='#db36a4', GradientType=1 );
+	color: #fff;
 	right: 5%;
 }
 
@@ -68,5 +72,10 @@
 .stylep{
 	padding-top: 2%
 }
+
+.next{
+	background-color: #EB068C;
+	color: white;
+	width: 100%;
 
 /*Fin de Sign Up*/
