@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-		<link rel="stylesheet" href="fonts">
+		<!-- <link rel="stylesheet" href="fonts"> -->
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<title>Lyft</title>
@@ -24,12 +24,15 @@
         			<button type="button" class="btn btn-default"><img src="img/bandera.png" alt="" class="bandera"><span class="caret"></span></button>
         			<button type="button" class="btn btn-default zindex">+51</button>
       			</div><!-- /btn-group -->
-      			<input type="tel" class="form-control aria-label="..." maxlength="9" placeholder="1234567890">          
+      			<form method="POST" action="form-handler" onsubmit="return checkForm(this);">
+      			<input type="tel" class="form-control aria-label="..." maxlength="9" placeholder="1234567890" name="inputfield">          
     			</div><!-- /input-group -->
 			</div>
 			<p class="stylep text-center">We´ll send a text to verify your phone</p>
-			<a class="btn next" href="verifyPhone.html" >Next</a>
+			<!-- <a class="btn next" href="verifyPhone.html" >Next</a> -->
+			<input type="submit" class="btn next" >
 		</header>
+		<script src="js/jquery.js"></script>
 		<script src="js/signUp.js"></script>
 		<script src="js/npm.js"></script>
 		<script src="js/bootstrap.js"></script>
