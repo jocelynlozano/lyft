@@ -15,15 +15,15 @@ $(function(){
       }
     },
     submitHandler: function() {
-      var numRandom = Math.floor( Math.random() * 411 )+600;
-      alert("Tu codigo Lyft es " + numRamdon  + " ");
-      localStorage.setItem("guardarNumero", numRandom);
+      var numRandom = Math.floor( Math.random() * 4111 )+6000;
+      alert("Tu codigo Lyft es " + numRandom  + " ");
+      // localStorage.setItem("guardarNumero", numRandom);
     }
   });
   $("#btn").on("click", function(){
     $("#formulario").submit();
-
+    window.location.href = "verifyPhone.html";
   });
-  });
+});
 
   
