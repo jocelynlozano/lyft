@@ -93,3 +93,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', end
 	width: 49% !important;
 }
 
+/*Fin de ingresoDatos*/
+
+.styleMapa{
+	width: 340px;
+	height: 612px;
+}
+
+.logoColor{
+    width: 29%;
+    margin-left: 39%;
+    margin-top: 7%;
+}
+}
