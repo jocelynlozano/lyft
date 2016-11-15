@@ -10,27 +10,39 @@
 	<body>
 		<header>
 			<div class="container-fluid">
-				<div class="row">
-					<a href="index.html" class="glyphicon glyphicon-menu-left text-center"></a>
+				<div class="row text-center f-sup">
+					<a href="index.html" class="glyphicon glyphicon-menu-left"></a>
 					<h1 class="titulo text-center">Sign up</h1>
 					<p class="text-center">Join now for free ride credit</p>
 					<hr class="styleHr">
 				</div>
+				<div class="row borde-inf">
+					<div class="col-xs-12 text-center">
+						<p>Join now for free ride credit</p>
+					</div>
+				</div>
 			</div>
-			<div class="container-fluid">
-    			<div class="input-group">
-	      			<div class="input-group-btn">
-	        			<button type="button" class="btn btn-default"><img src="img/bandera.png" alt="" class="bandera"><span class="caret"></span></button>
-	        			<button type="button" class="btn btn-default zindex">+51</button>
-	      			</div>
-	      			<form method="POST" id="formulario" action="form-handler">
-	      			<input type="tel" class="form-control aria-label=" maxlength="9" placeholder="1234567890" name="telefono" >
-	      			</form>         
-    			</div>
-			</div>
-			<p class="stylep text-center">We´ll send a text to verify your phone</p>
-			<button type="submit" id="btn" class="btn next" >Next</button>
 		</header>
+		<section>
+			<div class="col-xs-12 text-center">
+				<div class="btn-group" role="group" aria-label="...">
+  					<div class="col-xs-6 btn-group" role="group">
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							<img class="bandera" src="img/bandera.png">
+							<span class="caret"></span>
+						</button>
+  						<button type="button" class="btn btn-default">+51</button>
+  					</div>
+  					<div class="col-xs-6">
+  						<form action="form" method="POST" id="formulario">
+  							<input type="tel" class="form-control styleForm" maxlength="9" placeholder="123456789" name="telefono" >
+						</form>
+  					</div>
+				</div> 
+			</div>
+			<p class="stylep text-center">We'll send a text to verify your phone</p>
+			<button type="submit" id="btn" class="btn next" >Next</button>
+		</section>
 		<script src="js/jquery.js"></script>
 		<script src="js/jquery.validate.min.js"></script>
 		<script src="js/signUp.js"></script>

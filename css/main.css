@@ -54,9 +54,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', end
 /*Fin de Index*/
 
 .bandera{
-	width: 30%;
-    height: 30%;
-    margin-right: 16%;
+	width: 2rem;
 }
 
 .botonn{
@@ -79,21 +77,44 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', end
 	width: 100%;
 }
 
-/*.style3{
-	margin-bottom: 6% !important;
-}*/
+.styleForm{
+	position: relative;
+    right: 43%;
+    padding: 0%;
+    width: 192px;
+}
 
 /*Fin de Sign Up*/
 
-.styleEmail{
-	width: 98% !important;
+.styleDivForm{
+	margin: 0;
 }
 
-.style2{
-	width: 49% !important;
+.nombreApellido input{
+	width: 50% !important;
+}
+
+.styleIcons{
+	color: black;
+	border:none;
+	background-color:white;
+}
+
+.ipt-error{
+	border: 1px solid red;
+	box-shadow: 0px 0px 20px 0px rgba(237,133,124,1);
 }
 
 /*Fin de ingresoDatos*/
+
+
+
+
+
+
+
+
+
 
 .styleMapa{
 	width: 340px;
@@ -105,4 +126,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cb60b3', end
     margin-left: 39%;
     margin-top: 7%;
 }
-}
+
+/*Fin de geoLocation*/
+
+
+
